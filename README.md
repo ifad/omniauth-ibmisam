@@ -1,6 +1,9 @@
 # OmniAuth IBM-ISAM Strategy 
 
-This is a OmniAuth 1.0 compatible strategy.
+This is a OmniAuth 1.0 compatible strategy. See more info:
+
+* [IBM Security Access Manager](https://www.ibm.com/support/knowledgecenter/SSPREK_9.0.0/com.ibm.isam.doc/welcome.html)
+* [HTTP headers for client identity](https://www.ibm.com/support/knowledgecenter/SSPREK_9.0.0/com.ibm.isam.doc/wrp_config/concept/con_supply_client_id_http_hdr.html) when using the reverse proxy configuration.
 
 ## Installation
 
