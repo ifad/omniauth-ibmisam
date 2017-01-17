@@ -21,7 +21,7 @@ module OmniAuth
       end
 
       uid do
-        HEADER_NAMES.keys.include?(header_type) ? request.env[rack_header] : nil
+        request.env[rack_header]
       end
 
       class ConfigurationError < StandardError; end
