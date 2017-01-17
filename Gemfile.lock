@@ -34,7 +34,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
+  byebug (~> 9.0)
   omniauth-ibmisam!
   rack-test (~> 0.6)
   rspec (~> 3.5)
